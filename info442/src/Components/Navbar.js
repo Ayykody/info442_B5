@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import logo from '../Images/Fish.png';
 import { Link } from 'react-router-dom';
-import "./Navbar.css"
+import './Navbar.css';
 
 export const NavBar = ()  => {
 
@@ -18,7 +18,7 @@ export const NavBar = ()  => {
   window.addEventListener('scroll', changeBackground)
   return (
     <nav className={nav ? 'nav active': 'nav'}> 
-        <a href='#' className='logo'>
+        <a href='/Homepage' className='logo'>
             <img src={logo} alt='fish'/>
         </a>
         <ul>
