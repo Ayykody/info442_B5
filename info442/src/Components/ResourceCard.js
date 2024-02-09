@@ -4,9 +4,15 @@ import './ResourceCard.css'
 function ResourceCard({ title, description, imageLocation }) {
   return (
     <div className="resource-card">
-        <img src={imageLocation} alt={title} style={{ width: '200px', height: '150px' }} />
-        <h2>{title}</h2>
-        <p>{description}</p>
+      <div className="flip-card-inner">
+        <div className="card-front">
+          <img src={imageLocation} alt={title} style={{ width: '300px', height: '200px' }} />
+          <h2>{title}</h2>
+        </div>
+        <div className="card-back">
+          <p>{description}</p>
+        </div>
+      </div>
     </div>
   );
 }

@@ -3,8 +3,8 @@ import ResourceCard from './ResourceCard';
 import trash from '../Images/trash.jpg';
 import overfishing from '../Images/overfishing.jpeg';
 import noise from '../Images/noise_pollution.png';
-import reefs from '../Images/reefs.jpeg';
-import footprint from '../Images/carbon_footprint.jpeg';
+import reefs from '../Images/reefs.webp';
+import footprint from '../Images/plane.jpeg';
 import sunscreen from '../Images/sunscreen.png';
 
 function Resources() {
@@ -12,7 +12,7 @@ function Resources() {
     <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: '80px' }}>
       <ResourceCard
         title="Trash Left Behind by Tourists"
-        description="Description."
+        description="Over 14 million tons of plastic go into the ocean each year. Learn about the impacts of trash left by tourists and what you can do to reduce your impact when you travel."
         imageLocation={trash}
       />
       <ResourceCard
