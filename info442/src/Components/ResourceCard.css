@@ -39,3 +39,13 @@
     color: white;
     transform: rotateY(180deg)
 }
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 80px;
+}
+
+.resource-heading {
+    display: block;
+}

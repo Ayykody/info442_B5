@@ -1,5 +1,6 @@
 import React from 'react';
 import ResourceCard from './ResourceCard';
+import './ResourceCard.css'
 import trash from '../Images/trash.jpg';
 import overfishing from '../Images/overfishing.jpeg';
 import noise from '../Images/noise_pollution.png';
@@ -9,7 +10,7 @@ import sunscreen from '../Images/sunscreen.png';
 
 function Resources() {
   return (
-    <div style={{ display: 'flex', flexWrap: 'wrap', marginTop: '80px' }}>
+    <div className="card-container">
       <ResourceCard
         title="Trash Left Behind by Tourists"
         description="Over 14 million tons of plastic go into the ocean each year. Learn about the impacts of trash left by tourists and what you can do to reduce your impact when you travel."
