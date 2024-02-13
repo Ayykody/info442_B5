@@ -17,6 +17,7 @@ export default function App(props) {
               <Route path="/Resources" element={<Resources />} />
               <Route path="/Events" element={<Events />} />
               <Route path="/Homepage" element={<Homepage />} />
+              <Route path="/" element={<Homepage />} />
             </Routes>
         </Router>
       </div>
