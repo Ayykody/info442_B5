@@ -1,6 +1,21 @@
 .container {
-    color: black;
     padding: 20px;
     margin-top: 60px;
     text-align: center;
+}
+body {
+    background-color: #001A33;
+    color: white;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.b{
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
 }
