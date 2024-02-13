@@ -5,6 +5,7 @@ import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-d
 import Quiz from './Components/Quiz'
 import Events from './Components/Events'
 import Homepage from './Components/Homepage'
+import TouristTrash from './Components/TouristTrash'
 
 export default function App(props) {  
   return (
@@ -18,6 +19,7 @@ export default function App(props) {
               <Route path="/Events" element={<Events />} />
               <Route path="/Homepage" element={<Homepage />} />
               <Route path="/" element={<Homepage />} />
+              <Route path="/Resources/TouristTrash" element={<TouristTrash />} />
             </Routes>
         </Router>
       </div>
