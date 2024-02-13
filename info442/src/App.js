@@ -16,7 +16,7 @@ export default function App(props) {
               <Route path="/Quiz" element={<Quiz />} />
               <Route path="/Resources" element={<Resources />} />
               <Route path="/Events" element={<Events />} />
-              <Route path="/" element={<Homepage />} />
+              <Route path="/Homepage" element={<Homepage />} />
             </Routes>
         </Router>
       </div>

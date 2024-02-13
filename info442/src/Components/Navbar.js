@@ -18,9 +18,9 @@ export const NavBar = ()  => {
   window.addEventListener('scroll', changeBackground)
   return (
     <nav className={nav ? 'nav active': 'nav'}> 
-        <a href='/Homepage' className='logo'>
-            <img src={logo} alt='fish'/>
-        </a>
+         <Link to='/Homepage' className='logo'>
+            <img src={logo} alt='fish' />
+          </Link>
         <ul>
           <li>
             <Link to='/Quiz'>Quiz</Link>
