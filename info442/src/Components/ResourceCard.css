@@ -26,8 +26,8 @@
 }
 
 .card-front, .card-back {
-
     backface-visibility: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card-back {
