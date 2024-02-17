@@ -6,6 +6,7 @@ import Quiz from './Components/Quiz'
 import Events from './Components/Events'
 import Homepage from './Components/Homepage'
 import TouristTrash from './Components/TouristTrash'
+import Overfishing from './Components/Overfishing'
 
 export default function App(props) {  
   return (
@@ -20,6 +21,7 @@ export default function App(props) {
               <Route path="/Homepage" element={<Homepage />} />
               <Route path="/" element={<Homepage />} />
               <Route path="/Resources/TouristTrash" element={<TouristTrash />} />
+              <Route path="/Resources/Overfishing" element={<Overfishing />} />
             </Routes>
         </Router>
       </div>
