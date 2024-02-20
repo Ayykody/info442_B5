@@ -7,6 +7,7 @@ import Events from './Components/Events'
 import Homepage from './Components/Homepage'
 import TouristTrash from './Components/TouristTrash'
 import Overfishing from './Components/Overfishing'
+import Coral from './Components/Coral'
 
 export default function App(props) {  
   return (
@@ -22,6 +23,7 @@ export default function App(props) {
               <Route path="/" element={<Homepage />} />
               <Route path="/Resources/TouristTrash" element={<TouristTrash />} />
               <Route path="/Resources/Overfishing" element={<Overfishing />} />
+              <Route path="/Resources/Coral" element={<Coral />} />
             </Routes>
         </Router>
       </div>
