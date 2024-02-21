@@ -1,6 +1,7 @@
 import React from 'react';
 import './Homepage.css';
 import { Link } from 'react-router-dom';
+import Calculator from './Calculator';
 
 function Homepage() {
   return (
@@ -18,7 +19,7 @@ function Homepage() {
       </div>
     </div>
     <div>
-      /* Add calculator here */
+    <Calculator />
     </div>
    </body>
   )
