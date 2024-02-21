@@ -24,35 +24,25 @@ function Overfishing() {
                 <div className='tips-card'>
                     <h2>General Tips to Reduce your Trash while Traveling</h2>
                     <ol>
-                        <li>Reduce the use of single-use plastics</li>
+                        <li>Try catch and release fishing</li>
                             <ul>
                                 <li>
-                                    You may be exploring new foods and eating out a lot, which may mean more plastic silverware. Bring some reusable
-                                    silverware and wash them at the place you are staying.
+                                    Releasing fish instead of keeping them to eat or for sport ensures that the fish can continue to reprodcuce and
+                                    prosper in the ocean.
                                 </li>
-                                <li>Bring reusable bags for your trip to use while you are shopping in the coastal communities.</li>
+                                <li>Research fishing equipment that is ideal for catch and release fishing.</li>
                             </ul>
-                        <li>Research local recycling practices before you leave for your trip</li>
+                        <li>Research local fishing guidelines</li>
                             <ul>
                                 <li>
-                                    Depending on where you are traveling, bottled water might be the only safe option and it is important to know
-                                    what to do with plastic bottles since you may be using a lot of them.
+                                    Depending on where you are traveling, there are different rules for fishing. Make sure you are going to be
+                                    fishing in an area in which fishing is permitted.
                                 </li>
                                 <li>
-                                    Check if there are specific recycling practices in the area you are traveling to, such as what to do with food,
-                                    other waste, and recyclable materials.
+                                    Make sure you know what fish are allowed to be caught and which ones are against the rules.
                                 </li>
                             </ul>
-                        <li>Participate in a shoreline cleanup</li>
-                        <li>Pick up after yourself and others</li>
-                            <ul>
-                                <li>
-                                    Make sure you leave with all of the items you came with and dispose of trash and recyclable materials properly.
-                                </li>
-                                <li>
-                                    If you see trash, pick it up and dispose of it properly.
-                                </li>
-                            </ul>
+                        <li>If you plan to use the fish, practice this responsibly and only keep what you will use.</li>
                     </ol>
                 </div>
                 <img className='image-two' src={graph_overfishing} alt="pie chart of number of fish that are exploited by overfishing" />
