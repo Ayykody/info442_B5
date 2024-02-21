@@ -15,6 +15,7 @@ function Overfishing() {
                 tourists. Overfishing can also significantly impact the complex biodiversity of the ocean due
                 to the wide array of marine life that are caught (intentionally or unintentionally).  
             </p>
+            <h2>World Wildlife Fund's Guide to Sustainable Seafood</h2>
         </div>
     )   
 }

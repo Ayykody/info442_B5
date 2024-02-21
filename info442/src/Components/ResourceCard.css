@@ -43,11 +43,13 @@
 .card-back p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     margin: 0;
+    font-size: 19px;
 }
 
 h2 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white; 
+    color: white;
+    text-align: center; 
 }
 
 .card-container {
