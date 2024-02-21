@@ -22,3 +22,17 @@ h2 {
     margin-top: 10px;
     margin-right: 40px;
 }
+
+.tips-card {
+    margin-left: 50px;
+    width: 550px;
+    height: 300px;
+}
+
+ul {
+    list-style-type: disc;
+}
+
+li {
+    margin: 10px;
+}
