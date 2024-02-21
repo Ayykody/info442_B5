@@ -6,7 +6,7 @@
 body {
     background-color: #001A33;
     color: white;
-    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0;
     height: 100%;
 }

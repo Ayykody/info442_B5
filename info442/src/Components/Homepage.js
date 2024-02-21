@@ -6,7 +6,7 @@ function Homepage() {
   return (
     <body className="body">
       <div className="container">
-        <h1>Ocean Biodversity</h1>
+        <h1>Ocean Biodiversity</h1>
         <p>Do you know the risk of traveling?</p>
     </div>
     <div>
