@@ -1,10 +1,14 @@
 import React from 'react';
 import coral from '../Images/coral.jpeg';
-import './ResourcePages.css'
+import './ResourcePages.css';
+import { useNavigate } from 'react-router-dom';
 
 function Coral() {
+    let back = useNavigate();
+
     return(
         <div>
+            <button onClick={() => back(-1)}>Back</button>
             <h1 className='header'>Degradation of Coral Reefs</h1>
             <img className='image' src={coral} alt="dried coral reefs with fish surrounding them" />
             <h2>Overview</h2>

@@ -12,6 +12,8 @@ import { Link } from 'react-router-dom';
 function Resources() {
   return (
     <div className="card-container">
+      <h1 className='header'>Explore our Resources!</h1>
+      <p>Click on a card below to learn more about these topics and how to minimize your negative impact while traveling.</p>
       <Link to="/Resources/touristtrash">
         <ResourceCard
           title="Trash Left Behind by Tourists"

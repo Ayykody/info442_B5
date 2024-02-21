@@ -1,10 +1,14 @@
 import React from 'react';
 import plane from '../Images/plane_emission.jpeg';
-import './ResourcePages.css'
+import './ResourcePages.css';
+import { useNavigate } from 'react-router-dom';
 
 function Carbon() {
+    let back = useNavigate();
+    
     return(
         <div>
+            <button onClick={() => back(-1)}>Back</button>
             <h1 className='header'>Carbon Footprint of Marine Tourism</h1>
             <img className='image' src={plane} alt="plane emitting emissions" />
             <h2>Overview</h2>
