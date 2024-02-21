@@ -7,9 +7,9 @@ function NoisePollution() {
     let back = useNavigate();
 
     return(
-        <div>
+        <div className='body'>
             <button onClick={() => back(-1)}>Back</button>
-            <h1 className='header'>Overfishing in Tourist-Heavy Areas</h1>
+            <h1 className='header'>Noise Pollution from Tour Boats</h1>
             <img className='image' src={noise} alt="fish underwater with a boat approaching" />
             <h2>Overview</h2>
             <p className='overview'>

@@ -7,7 +7,7 @@ function Carbon() {
     let back = useNavigate();
     
     return(
-        <div>
+        <div className='body'>
             <button onClick={() => back(-1)}>Back</button>
             <h1 className='header'>Carbon Footprint of Marine Tourism</h1>
             <img className='image' src={plane} alt="plane emitting emissions" />

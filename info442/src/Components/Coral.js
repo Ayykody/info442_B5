@@ -7,7 +7,7 @@ function Coral() {
     let back = useNavigate();
 
     return(
-        <div>
+        <div className='body'>
             <button onClick={() => back(-1)}>Back</button>
             <h1 className='header'>Degradation of Coral Reefs</h1>
             <img className='image' src={coral} alt="dried coral reefs with fish surrounding them" />

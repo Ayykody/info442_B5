@@ -18,8 +18,8 @@ button {
 }
 
 button:hover {
-    background-color: gray;
-    color: white;
+    background-color: #d3d3d3;
+    color: black;
 }
 
 .header {
@@ -61,11 +61,12 @@ button:hover {
 
 ul {
     list-style-type: disc;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
 }
 
 li {
     margin: 10px;
+    margin-bottom: 15px;
 }
 
 .image-two {

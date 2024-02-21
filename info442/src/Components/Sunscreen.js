@@ -3,13 +3,13 @@ import sunscreen from '../Images/sunscreen_beach.jpeg';
 import './ResourcePages.css';
 import { useNavigate } from 'react-router-dom';
 
-function Coral() {
+function Sunscreen() {
     let back = useNavigate();
 
     return(
-        <div>
+        <div className='body'>
             <button onClick={() => back(-1)}>Back</button>
-            <h1 className='header'>Degradation of Coral Reefs</h1>
+            <h1 className='header'>Toxicity of Sunscreen</h1>
             <img className='image' src={sunscreen} alt="sunscreen bottles on the beach as trash" />
             <h2>Overview</h2>
             <p className='overview'>
@@ -21,4 +21,4 @@ function Coral() {
     )   
 }
 
-export default Coral;
+export default Sunscreen;
