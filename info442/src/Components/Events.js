@@ -1,20 +1,63 @@
 import React, { useState, useEffect } from 'react';
-import './Events.css'; // Assuming you have an Events.css file for styling
+import './Event.css';
 
-// Simulated fetch function. Replace this with actual data fetching logic.
 const fetchEventsNearLocation = async () => {
-  // Simulate fetching data
   return [
     {
       id: 1,
-      title: "Bubbe's Book Club",
+      title: "Ocean Cleaning",
       location: "Bellmore, NY",
       price: "Free",
-      image: "./images/img1.jpg",
+      image: ".\Images\overfish.jpeg",
       details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
       description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
     },
-    // Add more events as needed
+
+    {
+      id: 2,
+      title: "Ocean Cleaning",
+      location: "Bellmore, NY",
+      price: "Free",
+      image: ".\Images\overfish.jpeg",
+      details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
+      description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
+    },
+    {
+      id: 3,
+      title: "Ocean Cleaning",
+      location: "Bellmore, NY",
+      price: "Free",
+      image: ".\Images\overfish.jpeg",
+      details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
+      description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
+    },
+    {
+      id: 4,
+      title: "Ocean Cleaning",
+      location: "Bellmore, NY",
+      price: "Free",
+      image: ".\Images\overfish.jpeg",
+      details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
+      description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
+    },
+    {
+      id: 5,
+      title: "Ocean Cleaning",
+      location: "Bellmore, NY",
+      price: "Free",
+      image: ".\Images\overfish.jpeg",
+      details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
+      description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
+    },
+    {
+      id: 6,
+      title: "Ocean Cleaning",
+      location: "Bellmore, NY",
+      price: "Free",
+      image: ".\Images\overfish.jpeg",
+      details: "Grand Central Terminal, Sat, Sep 19, 10:00 AM EDT",
+      description: "Welcome! Everyone has a unique perspective after reading a book, and we would love you to share yours with us! We meet one Sunday evening more...",
+    },
   ];
 };
 
