@@ -43,8 +43,7 @@ function Resources() {
         <ResourceCard
           title="Degradation of Coral Reefs"
           description="Coral reefs are essential in maintaining the unique biodiversity of the ocean, but they are becoming
-          increasingly damaged due to human behavior. There are many different activities that negatively affect the reefs, such as 
-          pollution, trash, and destructive fishing practices."
+          increasingly damaged due to human behavior. Learn more about how to reduce your impact on the reefs."
           imageLocation={reefs}
         />
       </Link>
@@ -52,14 +51,15 @@ function Resources() {
         <ResourceCard
           title="Carbon Footprint of Marine Tourism"
           description="Travel accounts for 8% of all carbon emissions across the globe, particularly from emissions from long flights
-          and large ships. The planes themselves and the technologies needed to power them are incredibly pollutive."
+          and large ships. Click here to learn more about how to reduce your carbon footprint while traveling."
           imageLocation={footprint}
         />
       </Link>
       <Link to="/Resources/sunscreen">
         <ResourceCard
           title="Toxicity of Sunscreen"
-          description="Description."
+          description="Some sunscreens contain ingredients that are harmful to the ocean's unique ecosystem. Learn more about how to 
+          avoid toxic sunscreens."
           imageLocation={sunscreen}
         />
       </Link>
