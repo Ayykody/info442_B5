@@ -14,7 +14,7 @@ function TouristTrash() {
             <img className='image' src={beach_trash} alt="trash scattered on the beach" />
             <h2 className='overview-title'>Overview</h2>
             <p className='overview'>
-            Over 14 million tons of plastic go into the ocean each year. This trash is not only harmful to the animals that call the ocean home, but also
+            Over 13 million tons of plastic go into the ocean each year. This trash is not only harmful to the animals that call the ocean home, but also
             locals living in coastal communities that depend on tourism for their economy. The debris that ends up in our oceans can range from 
             microplastics to large marine debris. No matter the size of the trash that is left by humans, it adds up and creates a negative impact on the
             marine life and ecosystems that make our oceans biodiverse. Learn about the impacts of trash left by tourists and what you can do to reduce 

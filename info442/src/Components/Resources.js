@@ -17,7 +17,7 @@ function Resources() {
       <Link to="/Resources/touristtrash">
         <ResourceCard
           title="Trash Left Behind by Tourists"
-          description="Over 14 million tons of plastic go into the ocean each year. Learn about the impacts of 
+          description="Over 13 million tons of plastic go into the ocean each year. Learn about the impacts of 
           trash left by tourists and what you can do to reduce your impact when you travel."
           imageLocation={trash}
         />
@@ -42,14 +42,17 @@ function Resources() {
       <Link to="/Resources/coral">
         <ResourceCard
           title="Degradation of Coral Reefs"
-          description="Description."
+          description="Coral reefs are essential in maintaining the unique biodiversity of the ocean, but they are becoming
+          increasingly damaged due to human behavior. There are many different activities that negatively affect the reefs, such as 
+          pollution, trash, and destructive fishing practices."
           imageLocation={reefs}
         />
       </Link>
       <Link to="/Resources/carbon">
         <ResourceCard
           title="Carbon Footprint of Marine Tourism"
-          description="Description."
+          description="Travel accounts for 8% of all carbon emissions across the globe, particularly from emissions from long flights
+          and large ships. The planes themselves and the technologies needed to power them are incredibly pollutive."
           imageLocation={footprint}
         />
       </Link>

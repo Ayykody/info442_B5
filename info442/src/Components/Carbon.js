@@ -13,9 +13,8 @@ function Carbon() {
             <img className='image' src={plane} alt="plane emitting emissions" />
             <h2>Overview</h2>
             <p className='overview'>
-            Over 14 million tons of plastic go into the ocean each year. This trash is not only harmful to the animals that call the ocean home, but also
-            locals living in coastal communities that depend on tourism for their economy. Learn about the impacts of trash left by tourists and what you 
-            can do to reduce your impact when you travel.
+            Travel accounts for 8% of all carbon emissions across the globe, particularly from emissions from long flights
+          and large ships. The planes themselves and the technologies needed to power them are incredibly pollutive.
             </p>
         </div>
     )   
