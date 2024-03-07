@@ -13,7 +13,7 @@ function Resources() {
   return (
     <div className="card-container">
       <h1 className='header'>Explore our Resources!</h1>
-      <p>Click on a card below to learn more about these topics and how to minimize your negative impact while traveling.</p>
+      <h2 className='header'>Click on a card below to learn more about these topics and how to minimize your negative impact while traveling.</h2>
       <Link to="/Resources/touristtrash">
         <ResourceCard
           title="Trash Left Behind by Tourists"

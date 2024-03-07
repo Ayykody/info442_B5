@@ -36,6 +36,12 @@ function Coral() {
                             </ul>
                         <li>Participate in a shoreline cleanup</li>
                         <li>If you dive, don't touch the reefs</li>
+                            <ul>
+                                <li>
+                                    You are visiting a complex ecosystem and you should respect the environment so they can continue
+                                    to prosper. 
+                                </li>
+                            </ul>
                         <li>Safe boating practices are important</li>
                             <ul>
                                 <li>
