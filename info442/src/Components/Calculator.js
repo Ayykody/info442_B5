@@ -1,11 +1,10 @@
-// Calculator.js
 import React, { useState } from 'react';
-
 import Swal from 'sweetalert2';
+import './Calculator.css'; // Import the CSS file for styling
 
 const Calculator = () => {
   const [mileage, setMileage] = useState('');
-  
+
   const calculatePollution = () => {
     const emissionFactor = 2.3;
     const mileageInput = parseFloat(mileage);
@@ -32,16 +31,18 @@ const Calculator = () => {
 
   return (
     <div className="calculator-container">
-      <h1>Calculate Pollution Impact</h1>
-      <label htmlFor="mileage">Enter mileage for travel (in miles): </label>
+      <h1 className="calculator-header">Calculate Pollution Impact</h1>
+      <label htmlFor="mileage" className="calculator-label">Enter mileage for travel (in miles): </label>
       <input
         type="number"
         id="mileage"
         placeholder="Enter mileage"
         value={mileage}
         onChange={(e) => setMileage(e.target.value)}
+        className="calculator-input"
       />
-      <button onClick={calculatePollution}>Calculate Pollution</button>
+      <br />
+      <button onClick={calculatePollution} className="calculator-button">Calculate Pollution</button>
     </div>
   );
 };
