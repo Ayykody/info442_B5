@@ -54,10 +54,7 @@ function Carbon() {
                             </ul>
                     </ol>
                 </div>
-                <img className='image-two' src={bus} alt="pie chart of types of trash that are found in the ocean" /> 
-                {/* </div>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/rByHiqc0K9k?si=iNNQ32sfUsqOEi1K" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                </div> */}
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/a9yO-K8mwL0?si=bMGgz92c-bnxzs-X" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </div>
     )   
