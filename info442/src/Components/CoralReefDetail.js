@@ -8,17 +8,17 @@ function CoralReefDetail() {
 
 
   const eventDetails = {
-    title: "Eco-friendly Sailing Adventure",
-    location: "Cape Cod, MA",
-    date: "Saturday, Nov 7, 1:00 PM EST",
-    price: "$50 per person",
-    overview: "Join us for an unforgettable eco-friendly sailing adventure around the beautiful waters of Cape Cod. This experience not only offers you the chance to learn sailing from experienced skippers but also educates you on marine conservation efforts. You'll get hands-on experience with eco-friendly sailing practices, understand the importance of preserving marine biodiversity, and enjoy bird-watching.",
+    title: "Coral Reef Restoration Workshop",
+    location: "Key West, FL",
+    date: "Saturday, Oct 3, 9:00 AM EDT",
+    price: "Free with registration",
+    overview: "Join our hands-on workshop at Coral Palms Beach and contribute to coral transplantation efforts to revitalize our reefs. Learn from marine biologists about how to sustain marine biodiversity and what you can do to help protect these vital ecosystems.",
     highlights: [
-      "Hands-on sailing experience with an eco-friendly vessel.",
-      "Learn about marine conservation from our knowledgeable guides.",
-      "Enjoy the scenic beauty of Cape Cod's coastline.",
-      "Bird-watching opportunities.",
-      "Contribute to ocean conservation efforts."
+      "Participate in actual coral transplantation activities.",
+      "Engage in discussions about coral ecology and conservation strategies.",
+      "Understand the challenges faced by coral reefs globally and locally.",
+      "Snorkeling around the reef to observe the underwater world and newly transplanted corals.",
+      "Meet and interact with fellow conservation enthusiasts and marine biologists."
     ]
   };
 
