@@ -97,7 +97,7 @@ function Events() {
                 <p className="info description">{event.description}</p>
               </div>
             </div>
-            <Link to={`/event/${event.id}`} className="action-link">
+            <Link to={`/Events/Sailing`} className="action-link">
               <button className="action">Book it</button>
             </Link>
           </div>
