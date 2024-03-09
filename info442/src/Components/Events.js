@@ -1,5 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './Event.css';
+import coralReef from '../Images/coral_reef_workshop.jpg';
+import yoga from '../Images/yoga.jpg';
+import fishing from '../Images/fishing.jpg';
+import clean from '../Images/clean.jpg';
+import sailing from '../Images/sailing.jpg';
+import wildlife from '../Images/wildlife.jpg';
 
 const fetchEventsNearLocation = async () => {
   return [
@@ -8,7 +14,7 @@ const fetchEventsNearLocation = async () => {
       title: "Coral Reef Restoration Workshop",
       location: "Key West, FL",
       price: "Free with registration",
-      image: "./Images/coral_reef_workshop.jpg",
+      image: coralReef,
       details: "Coral Palms Beach, Sat, Oct 3, 9:00 AM EDT",
       description: "Join our hands-on workshop and contribute to coral transplantation efforts to revitalize our reefs. Learn from marine biologists about sustaining marine biodiversity.",
     },
@@ -17,7 +23,7 @@ const fetchEventsNearLocation = async () => {
       title: "Seaside Yoga for Conservation",
       location: "Malibu, CA",
       price: "Donation-based",
-      image: "./Images/seaside_yoga.jpg",
+      image: yoga,
       details: "Zuma Beach, Sun, Oct 11, 7:30 AM PDT",
       description: "Start your morning with a yoga session by the sea. Donations support local marine cleanup projects and promote mindfulness in tourism.",
     },
@@ -26,7 +32,7 @@ const fetchEventsNearLocation = async () => {
       title: "Sustainable Fishing Seminar",
       location: "Monterey, CA",
       price: "$20 per person",
-      image: "./Images/sustainable_fishing.jpg",
+      image: fishing,
       details: "Monterey Bay Aquarium, Fri, Oct 16, 2:00 PM PDT",
       description: "Learn about sustainable fishing practices and how to enjoy seafood responsibly without disrupting marine ecosystems.",
     },
@@ -35,7 +41,7 @@ const fetchEventsNearLocation = async () => {
       title: "Beach Cleanup and BBQ",
       location: "Virginia Beach, VA",
       price: "Free, food for purchase",
-      image: "./Images/beach_cleanup_bbq.jpg",
+      image: clean,
       details: "Chesapeake Bay, Sun, Oct 25, 11:00 AM EDT",
       description: "Join our beach cleanup effort followed by a community BBQ. Meet local conservationists and enjoy the pristine coast.",
     },
@@ -44,7 +50,7 @@ const fetchEventsNearLocation = async () => {
       title: "Eco-friendly Sailing Adventure",
       location: "Cape Cod, MA",
       price: "$50 per person",
-      image: "./Images/sailing_adventure.jpg",
+      image: sailing,
       details: "Cape Cod Harbor, Sat, Nov 7, 1:00 PM EST",
       description: "Set sail with us on an eco-friendly vessel. Learn about marine life, enjoy bird-watching, and discover the importance of ocean conservation.",
     },
@@ -53,7 +59,7 @@ const fetchEventsNearLocation = async () => {
       title: "Marine Wildlife Photography Exhibit",
       location: "San Francisco, CA",
       price: "$15 per person",
-      image: "./Images/wildlife_photography_exhibit.jpg",
+      image: wildlife,
       details: "Ocean Art Gallery, Thu, Nov 12, 6:00 PM PST",
       description: "Explore stunning photography from the deep sea and learn about the species captured in these images. Proceeds go towards marine wildlife protection initiatives.",
     }

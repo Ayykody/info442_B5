@@ -4,7 +4,7 @@
   flex-wrap: wrap;
   gap: 20px;
   justify-content: center;
-  margin-top: 60px; /* Adjusted margin to not overlap with fixed nav */
+  border-top: 100px solid transparent; /* Adjust as needed */
 }
 
 .item-container {
