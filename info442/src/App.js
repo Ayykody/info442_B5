@@ -12,6 +12,11 @@ import Carbon from './Components/Carbon'
 import Sunscreen from './Components/Sunscreen'
 import NoisePollution from './Components/NoisePollution'
 import Sailing from './Components/Sailing'
+import CoralReefDetail from './Components/CoralReefDetail'
+import YogaDetail from './Components/YogaDetail'
+import FishingDetail from './Components/FishingDetail'
+import CleanupDetail from './Components/CleanupDetail'
+import WildlifeDetail from './Components/WildlifeDetail'
 
 export default function App(props) {  
   return (
@@ -32,7 +37,12 @@ export default function App(props) {
               <Route path="/Resources/Coral" element={<Coral />} />
               <Route path="/Resources/Sunscreen" element={<Sunscreen />} />
               <Route path="/Resources/NoisePollution" element={<NoisePollution />} />
+              <Route path="/Events/CoralReef" element={<CoralReefDetail />} />
+              <Route path="/Events/Yoga" element={<YogaDetail />} />
+              <Route path="/Events/Fishing" element={<FishingDetail />} />
+              <Route path="/Events/Cleanup" element={<CleanupDetail />} />
               <Route path="/Events/Sailing" element={<Sailing />} />
+              <Route path="/Events/Wildlife" element={<WildlifeDetail />} />
             </Routes>
         </Router>
       </div>

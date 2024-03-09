@@ -79,6 +79,19 @@ function Events() {
     loadEvents();
   }, []);
 
+
+  const generatePath = (event) => {
+    const eventNameMap = {
+      1: "CoralReef",
+      2: "Yoga",
+      3: "Fishing",
+      4: "Cleanup",
+      5: "Sailing",
+      6: "Wildlife"
+    };
+    return `/Events/${eventNameMap[event.id]}`;
+  };
+
   return (
     <div className="container">
       {events.map((event) => (
@@ -97,7 +110,7 @@ function Events() {
                 <p className="info description">{event.description}</p>
               </div>
             </div>
-            <Link to={`/Events/Sailing`} className="action-link">
+            <Link to={generatePath(event)} className="action-link">
               <button className="action">Book it</button>
             </Link>
           </div>
