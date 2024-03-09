@@ -1,6 +1,6 @@
 import React from 'react';
-import sailingImage from '../Images/sailing.jpg'; // Assuming you have this image in your Images directory
-import './ResourcePages.css'; // Reusing the same CSS for consistency
+import sailingImage from '../Images/sailing.jpg';
+import './ResourcePages.css';
 import { useNavigate } from 'react-router-dom';
 
 function Sailing() {
@@ -17,7 +17,7 @@ function Sailing() {
         This sailing adventure takes you through the beautiful waters of Cape Cod, offering a unique experience to explore the marine ecosystem responsibly.
         Our guides are knowledgeable about the local wildlife and will share insights on how to protect our oceans while enjoying its vast beauty.
       </p>
-      {/* You can add more detailed content here, similar to the structure of Sunscreen.js */}
+      {/*  */}
     </div>
   );
 }
