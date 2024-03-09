@@ -11,6 +11,7 @@ import Coral from './Components/Coral'
 import Carbon from './Components/Carbon'
 import Sunscreen from './Components/Sunscreen'
 import NoisePollution from './Components/NoisePollution'
+import Sailing from './Components/Sailing'
 
 export default function App(props) {  
   return (
@@ -31,6 +32,7 @@ export default function App(props) {
               <Route path="/Resources/Coral" element={<Coral />} />
               <Route path="/Resources/Sunscreen" element={<Sunscreen />} />
               <Route path="/Resources/NoisePollution" element={<NoisePollution />} />
+              <Route path="/Events/Sailing" element={<Sailing />} />
             </Routes>
         </Router>
       </div>

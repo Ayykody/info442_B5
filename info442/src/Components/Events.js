@@ -6,6 +6,7 @@ import fishing from '../Images/fishing.jpg';
 import clean from '../Images/clean.jpg';
 import sailing from '../Images/sailing.jpg';
 import wildlife from '../Images/wildlife.jpg';
+import { Link } from 'react-router-dom';
 
 const fetchEventsNearLocation = async () => {
   return [
@@ -96,7 +97,9 @@ function Events() {
                 <p className="info description">{event.description}</p>
               </div>
             </div>
-            <button className="action">Book it</button>
+            <Link to={`/event/${event.id}`} className="action-link">
+              <button className="action">Book it</button>
+            </Link>
           </div>
         </div>
       ))}
