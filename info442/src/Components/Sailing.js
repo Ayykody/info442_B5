@@ -1,6 +1,6 @@
 import React from 'react';
 import sailingImage from '../Images/sailing.jpg';
-import './ResourcePages.css';
+import './EventsDetail.css';
 import { useNavigate } from 'react-router-dom';
 
 function Sailing() {
