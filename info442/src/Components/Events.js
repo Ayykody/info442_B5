@@ -111,7 +111,7 @@ function Events() {
               </div>
             </div>
             <Link to={generatePath(event)} className="action-link">
-              <button className="action">Book it</button>
+              <button className="action">Read More</button>
             </Link>
           </div>
         </div>
