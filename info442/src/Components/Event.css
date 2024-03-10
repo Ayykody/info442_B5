@@ -28,8 +28,8 @@
 .body-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between; /* This will push the button to the bottom */
-  height: 100%; /* Ensure that the container takes full height of the parent */
+  justify-content: space-between;
+  height: 100%;
   padding: 15px;
   position: relative;
 }

@@ -1,33 +1,33 @@
 .event-detail-container {
-    width: 80%; /* or max-width: 800px; */
-    margin: 2rem auto; /* centers the div and adds top/bottom margin */
+    width: 80%;
+    margin: 2rem auto;
     padding: 1rem;
-    background: #fff; /* adjust if necessary */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Adds shadow for depth */
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
   
   .event-detail-container h1,
   .event-detail-container h2,
   .event-detail-container h3 {
-    text-align: center; /* Centers all your headers */
+    text-align: center;
     color: #333;
   }
   
   .event-detail-container img {
     display: block;
-    max-width: 100%; /* ensures image is responsive */
+    max-width: 100%;
     height: auto;
-    margin: 0 auto 2rem; /* centers the image and adds bottom margin */
+    margin: 0 auto 2rem;
   }
   
   .event-detail-container p,
   .event-detail-container ul {
-    text-align: left; /* Adjusts text alignment */
+    text-align: left;
     color: #666;
   }
   
   .event-detail-container .back-button {
-    display: inline-block; /* Adjusts display property for the button */
+    display: inline-block;
     margin-bottom: 1rem;
   }
   
