@@ -1,5 +1,12 @@
 Testing protocol for each key feature:
 
+For the homepage:
+1. Users should land at the homepage upon clicking link
+2. Manually click link to see where it lands
+3. Known Bug- incorrect routing
+4. To fix and work around this bug click the image in the top left of the navbar
+5. Expected result you should be routed back to homepage
+
 For the Quiz:
 1. Manual testing through the web app to ensure users can click each option to the question
 2. Once a option is entered the feedback is giving
