@@ -15,3 +15,5 @@ For the Calculator:
 5. User can then click anywhere on the screen to exit the prompt
 
 For the Resource Page:
+
+For the Events Page:
