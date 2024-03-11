@@ -1,0 +1,17 @@
+Testing protocol for each key feature:
+
+For the Quiz:
+1. Manual testing through the web app to ensure users can click each option to the question
+2. Once a option is entered the feedback is giving
+3. Make sure user can progress through all 10 quiz questions without being stuck on a question
+4. Each question entered correctly will tally up to final score out of 10
+5. End of quiz will prompt user to explore the website
+
+For the Calculator:
+1. Users should be able fill out mileage in prompted inputs
+2. Put test numbers into inputs to ensure inputs are able to be taken
+3. Users should also be able to see the calculate button and click it once inputs are given
+4. A pop up should be prompted with the calulations onced the calculate button is clicked by the user
+5. User can then click anywhere on the screen to exit the prompt
+
+For the Resource Page:
