@@ -16,4 +16,9 @@ For the Calculator:
 
 For the Resource Page:
 
-For the Events Page:
+For the Event Page:
+1. Test all interactive elements like buttons and links for responsiveness.
+2. Ensure details such as event title, date, location, price, and description are accurately displayed.
+3. Confirm users can easily move from listing to event details and return without issues.
+4. Check images and icons for proper loading and appropriate alternative text.
+5. Users can click the homepage icon to return to the front page.
