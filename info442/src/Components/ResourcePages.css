@@ -84,3 +84,75 @@ iframe {
 
 
 
+@media (max-width: 1200px) {
+    .body {
+        margin-left: 10px;
+    }
+    .image, .image-two {
+        max-width: 70%;
+    }
+    .tips-card {
+        max-width: 50%;
+    }
+    .overview, .part-two {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .body {
+        margin-top: 60px;
+        margin-left: 5px;
+    }
+    button {
+        padding: 10px 24px;
+        font-size: 14px;
+    }
+    .image, .image-two {
+        max-width: 80%;
+    }
+    .tips-card, .part-two {
+        display: block;
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .overview-title, .overview {
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .body {
+        margin-top: 40px;
+    }
+    .header {
+        margin-top: 20px;
+    }
+    .overview-title, .overview, .part-two, .tips-card {
+        margin: 10px 0;
+    }
+    .image, .image-two {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    .body, .header, .overview-title, .overview {
+        margin: 5px;
+    }
+    button {
+        padding: 8px 20px;
+        font-size: 12px;
+    }
+    .image, .image-two, .part-two, .tips-card {
+        max-width: 100%;
+        height: auto;
+        margin: 5px auto;
+    }
+    .overview, .part-two {
+        margin: 5px;
+    }
+    ul, li {
+        margin-left: 20px;
+    }
+}

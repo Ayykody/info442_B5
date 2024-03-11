@@ -71,3 +71,62 @@ p {
 ol {
     padding-bottom: 10%;
 }
+
+@media (max-width: 1200px) {
+    .flip-card-inner {
+        width: 350px;
+        height: 250px;
+    }
+    .card-back p, p {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 992px) {
+    .card-container {
+        justify-content: center;
+    }
+    .flip-card-inner {
+        width: 300px;
+        height: 220px;
+    }
+    .card-back p, p {
+        font-size: 16px;
+    }
+    .resource-card {
+        margin: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .flip-card-inner {
+        width: 280px;
+        height: 200px;
+    }
+    .resource-card, .card-back p, p {
+        font-size: 15px;
+    }
+    .resource-card {
+        padding: 15px;
+        margin: 8px;
+    }
+}
+
+@media (max-width: 480px) {
+    .flip-card-inner {
+        width: 260px;
+        height: 180px;
+    }
+    .resource-card, .card-back p, p {
+        font-size: 14px;
+    }
+    .resource-card {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 15px;
+    }
+}

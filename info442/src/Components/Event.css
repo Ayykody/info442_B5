@@ -77,3 +77,76 @@
 .action:hover {
   background-color: #d3d3d3;
 }
+@media (max-width: 992px) {
+    .container {
+        gap: 15px;
+    }
+    .item-container {
+        width: 250px;
+        height: 550px;
+    }
+    .img-container img {
+        height: 180px;
+    }
+    .body-container {
+        padding: 10px;
+    }
+    .title, .info, .description, .price {
+        font-size: 16px;
+    }
+    .action {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+        gap: 10px;
+        border-top: 80px solid transparent;
+    }
+    .item-container {
+        width: 100%;
+        height: auto;
+    }
+    .img-container img {
+        height: auto;
+    }
+    .body-container {
+        padding: 8px;
+    }
+    .title, .info, .description, .price {
+        font-size: 14px;
+    }
+    .action {
+        padding: 7px 15px;
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 10px;
+        border-top: 60px solid transparent;
+    }
+    .item-container {
+        width: 100%;
+    }
+    .body-container {
+        padding: 5px;
+    }
+    .title {
+        font-size: 14px;
+    }
+    .info, .description {
+        font-size: 12px;
+    }
+    .price {
+        font-size: 14px;
+    }
+    .action {
+        padding: 6px 14px;
+        font-size: 12px;
+    }
+}

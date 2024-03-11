@@ -161,3 +161,64 @@ body {
     animation-duration: 19s;
     opacity: 0.3;
   }
+  @media (max-width: 1200px) {
+    .header {
+      font-size: 32px;
+    }
+    .description {
+      font-size: 16px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .container {
+      padding: 15px;
+      margin-top: 40px;
+    }
+    .header {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+    .description {
+      font-size: 14px;
+      margin-top: 15px;
+    }
+    .bubble--1, .bubble--5, .bubble--10, .bubble--11 {
+      display: none; 
+    }
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      background-size: auto;
+    }
+    .container {
+      padding: 10px;
+      margin-top: 20px;
+    }
+    .header {
+      font-size: 24px;
+    }
+    .description {
+      font-size: 12px;
+    }
+    .b .bubble {
+      animation: none;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .container {
+      margin-top: 10px;
+    }
+    .header {
+      font-size: 20px;
+    }
+    .description {
+      font-size: 11px;
+    }
+    .bubble {
+      display: none;
+    }
+  }
+  
