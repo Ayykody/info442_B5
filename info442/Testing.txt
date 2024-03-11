@@ -15,6 +15,11 @@ For the Calculator:
 5. User can then click anywhere on the screen to exit the prompt
 
 For the Resource Page:
+1. Users should be able to see 6 available resource cards.
+2. Users should be able to hover over cards to see resource page description.
+3. Click on card to navigate to resource pages.
+4. View pictures and videos on resource pages.
+5. View tips for reducing harm on environment.
 
 For the Event Page:
 1. Test all interactive elements like buttons and links for responsiveness.
